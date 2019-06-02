@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DerechoFragment"
+    android:orientation="vertical"
+    android:background="#050505">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:src="@drawable/thegoogdoctor"
+        android:layout_gravity="center_horizontal"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Good Doctor"
+            android:textSize="45dp"
+            android:textColor="#ffffff"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drama"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
